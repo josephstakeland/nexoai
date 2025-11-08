@@ -26,7 +26,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden" style={{ background: 'linear-gradient(180deg, #0a0e27 0%, #1a0f2e 100%)' }}>
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden" style={{ background: 'transparent' }}>
       {/* Background decorative elements with animated lights */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Animated glowing orbs */}
